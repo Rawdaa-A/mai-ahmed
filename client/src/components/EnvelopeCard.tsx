@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
+import { envelopeBase64 } from '../assets/envelopeBase64';
 
-const envelopeImg = './assets/envelope.png';
+const envelopeImg = envelopeBase64;
 
 interface EnvelopeCardProps {
   onOpen: () => void;
