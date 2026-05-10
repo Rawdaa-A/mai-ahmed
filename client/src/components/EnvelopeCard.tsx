@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
 
-const envelopeImg = '/assets/envelope.png';
+const envelopeImg = './assets/envelope.png';
 
 interface EnvelopeCardProps {
   onOpen: () => void;
