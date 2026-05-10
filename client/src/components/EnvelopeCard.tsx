@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
+import envelopeImg from '@assets/envelope.webp';
 
 interface EnvelopeCardProps {
   onOpen: () => void;
@@ -42,7 +43,7 @@ export default function EnvelopeCard({ onOpen }: EnvelopeCardProps) {
           transition={{ duration: 0.3 }}
         >
           <img
-            src="assets/envelope.webp"
+            src={envelopeImg}
             alt="Wedding Invitation Envelope"
             className="w-full h-auto drop-shadow-2xl"
           />
